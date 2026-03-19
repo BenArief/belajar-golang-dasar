@@ -11,5 +11,5 @@ func getCompleteName() (firstName string, lastName string) {
 
 func main() {
 	a, b := getCompleteName()
-	fmt.Println(a, b)
+	fmt.Println(a, b) 
 }
