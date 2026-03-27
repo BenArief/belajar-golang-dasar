@@ -1,6 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"internal/poll"
+
+	"golang.org/x/tools/go/analysis/passes/modernize"
+	"golang.org/x/tools/go/analysis/passes/nilfunc"
+)
 
 func endApp() {
 	fmt.Println("End App")
@@ -22,5 +28,6 @@ func runApp(error bool) {
 
 func main(){
 	runApp(true)
+	
 }
 
