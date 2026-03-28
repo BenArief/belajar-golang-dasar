@@ -11,6 +11,10 @@ func (customer Customer) sayHello(name string){
 	fmt.Println("Hello,", name , "my name is ", customer.Name)
 }
 
+func (c Customer) tellAddress(){
+	fmt.Println("I'm live in", c.Address)
+}
+
 func main() {
 	var ben Customer
 	fmt.Println(ben)
@@ -36,4 +40,13 @@ func main() {
 
 	sarah.sayHello("Agus")
 	joko.sayHello("Budi")
+
+	ilham := Customer{
+		Name: "Ilham Kurniawan",
+		Address: "Bekasi",
+		Age: 28,
+	}
+
+	ilham.sayHello("Windah")
+	ilham.tellAddress()
 }
