@@ -1,2 +1,5 @@
+resultString := result.(string)
+	// fmt.Println(resultString)
 
-	// fmt.Println(firstName, lastName)
+	// var hai string 
+	// fmt.Println(hai)	
