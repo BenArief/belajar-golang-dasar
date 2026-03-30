@@ -14,5 +14,4 @@ func main() {
 	ben := Man{"Ben"}
 	ben.Married()
 	fmt.Println(ben.Name)
-
 }
