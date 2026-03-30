@@ -1,5 +1,3 @@
-resultString := result.(string)
-	// fmt.Println(resultString)
-
-	// var hai string 
-	// fmt.Println(hai)	
+fmt.Println(helper.Application)
+	contoh := helper.Contoh()
+	fmt.Println(contoh)
